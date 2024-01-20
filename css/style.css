@@ -1,0 +1,99 @@
+/*fa-bounce*/
+h1{
+    font-size: 65px;
+}
+header{
+    background-image: url('../images/events-heavenly-header.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header .overlay , .days .overlay{
+    background-color: rgba(214, 46, 51 , 0.6);
+
+}
+.sidebar{
+    white-space: nowrap;
+}
+ul{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+
+}
+ul li{
+    margin-block:40px ;
+    padding-inline: 50px;
+}
+ul li a{
+    transition: 0.5s all;
+}
+ul li a:hover{
+    color: #DC3545;
+}
+.sidebar-box ul{
+    display: none;
+    padding-top: 50px;
+}
+#icon{
+    cursor: pointer;
+    margin-left: 20px;
+    color: #E68285;
+}
+#close{
+    cursor: pointer;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+.card , .contact .container{
+    box-shadow: 6px 6px 12px #beb8b8 ,  -6px -6px 12px #CCCCCC;
+}
+.card h2{
+    background-color: #E68285;
+    color: white;
+    padding: 14px 0;
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+
+}
+.card div{
+    padding: 14px;
+    background-color:#CCCCCC;
+    display: none;
+}
+.days{
+    background-image: url('../images/invitation-2508607__340.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.list ul li{
+    padding: 0;
+    margin-inline: 10px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.list ul li:hover{
+    background-color: #DC3545;
+    color: white;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #DC3545 !important;
+}
+
+
+@media only screen and (max-width:1200px) { 
+    .cards .container ,  .days .container , .contact .container{
+        width: 100% !important;
+    }
+    .cards .container .row ,  .days .container .row , header .row, .contact .row{
+        margin-inline: auto !important;
+
+    }
+    .contact .container{
+        padding:30px 10px !important
+    }
+   
+}
